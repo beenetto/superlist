@@ -39,7 +39,6 @@ class NewVisitorTest(StaticLiveServerTestCase):
         yield WebDriverWait(
             self.browser, timeout).until(staleness_of(old_page))
 
-
     def check_for_row_in_list_table(self, row_text):
         table = self.browser.find_element_by_id('id_list_table')
         rows = table.find_elements_by_tag_name('tr')
@@ -84,8 +83,8 @@ class NewVisitorTest(StaticLiveServerTestCase):
             self.check_for_row_in_list_table('2: My to-do')
 
         # A new user comes along
-        ## We use a new browser session to make sure that
-        ## no information leaks to other users
+        # We use a new browser session to make sure that
+        # no information leaks to other users
 
         self.browser.quit()
         self.browser = webdriver.Firefox()
