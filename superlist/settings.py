@@ -23,9 +23,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '&mz=l7urw9+o&jeu608$i3-(7e^7u331l(ng4=09-z%)vqtbv@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = True
 
-ALLOWED_HOSTS = []
+# Needed when DEBUG is False
+ALLOWED_HOSTS = ['http://superlist-stage.wizdomer.com/',
+                 'http://superlist-live.wizdomer.com/']
 
 
 # Application definition
