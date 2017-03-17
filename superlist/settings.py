@@ -26,8 +26,8 @@ SECRET_KEY = '&mz=l7urw9+o&jeu608$i3-(7e^7u331l(ng4=09-z%)vqtbv@'
 # DEBUG = True
 
 # Needed when DEBUG is False
-ALLOWED_HOSTS = ['http://superlist-stage.wizdomer.com/',
-                 'http://superlist-live.wizdomer.com/']
+ALLOWED_HOSTS = ['superlist-stage.wizdomer.com',
+                 'superlist-live.wizdomer.com']
 
 
 # Application definition
