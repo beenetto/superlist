@@ -41,6 +41,6 @@ urllib3==1.17
 venusian==1.0
 waitress==1.0.1
 WebOb==1.7.0
-Werkzeug==0.11.15
+Werkzeug==0.15.3
 zope.deprecation==4.2.0
 zope.interface==4.3.3
