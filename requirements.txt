@@ -39,7 +39,7 @@ texttable==0.8.7
 translationstring==1.3
 urllib3==1.17
 venusian==1.0
-waitress==1.0.1
+waitress==1.4.0
 WebOb==1.7.0
 Werkzeug==0.11.15
 zope.deprecation==4.2.0
